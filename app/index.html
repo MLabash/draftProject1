@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+        
+        <script src="productApp/product.app.js" type="text/javascript"></script>
+        <script src="productApp/product.service.js" type="text/javascript"></script>
+        <script src="productApp/product.controller.js"></script>
+        <script src="productApp/product.component.js"></script>
+        <script src="app.js"></script>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="productApp/style.css">
+        <style>
+            
+            .component {
+                width: 40%;
+                float:left;
+            }
+            
+            
+        </style>
+    </head>
+    <body>
+        <div ng-app="myApp">
+             <product-component></product-component>
+        </div>
+     </body>
+    
+</html>
